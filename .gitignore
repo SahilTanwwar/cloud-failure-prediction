@@ -1,0 +1,36 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python build and cache artifacts
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Large or local data artifacts
+ml/dataset/raw/
+*.csv
+*.csv.gz
+*.json.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Experiment outputs and temporary files
+ml/results/
+ml/saved_models/*.pkl
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/
